@@ -1,0 +1,19 @@
+package citest;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Profile {
+	private String name = "Hello World";
+	private List<String> tags = new
+			ArrayList<String>();
+
+	public String getName(){
+		return name;
+	}
+
+	public void addTag(String tag){
+		this.tags.add(tag);
+	}
+
+}
